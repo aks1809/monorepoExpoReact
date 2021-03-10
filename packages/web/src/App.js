@@ -1,9 +1,10 @@
 import React from "react";
+import { getWelcomeString } from "@root/common/index";
 
 const App = () => {
   return (
     <div>
-      <p>hi</p>
+      <p>{getWelcomeString("hi")}</p>
     </div>
   );
 };

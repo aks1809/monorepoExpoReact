@@ -8,5 +8,6 @@
     "start": "lerna run start",
     "test": "lerna run test",
     "app": "lerna run app"
-  }
+  },
+  "license": "MIT"
 }
