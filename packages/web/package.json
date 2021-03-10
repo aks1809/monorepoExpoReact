@@ -1,5 +1,5 @@
 {
-  "name": "@root/web",
+  "name": "web",
   "version": "0.1.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -9,7 +9,7 @@
     "react-dom": "16.13.1",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1",
-    "@root/common": "1.0.0"
+    "common": "1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,13 +1,13 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import { getWelcomeString } from "@root/common/index";
+import { getWelcomeString } from "common/index";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>{getWelcomeString("App")}</Text>
-      <Text>Open up App.js to start working on your app</Text>
+      <Text>{getWelcomeString("Mobile")}</Text>
+      <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
     </View>
   );

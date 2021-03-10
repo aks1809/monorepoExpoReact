@@ -1,5 +1,5 @@
 import React from "react";
-import { getWelcomeString } from "@root/common/index";
+import { getWelcomeString } from "common/index";
 
 const App = () => {
   return (
